@@ -14,6 +14,6 @@ public class TestActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         TextView textView = (TextView)findViewById(R.id.textView);
-        textView.setText(this.getClass().getName()+"12:28");
+        textView.setText(this.getClass().getName()+"12:39");
     }
 }
